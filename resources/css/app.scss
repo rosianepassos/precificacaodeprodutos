@@ -1,0 +1,207 @@
+//Configurações
+//Habilita css grid
+//$enable-grid-classes: false;
+//$enable-cssgrid: true;
+//Importa bootstrap 
+@import "bootstrap/scss/bootstrap";
+//Cores
+$btn-danger:#c90c02;
+$danger:#c90c02;
+$dark:#000000;
+$light:#ffff; 
+$warning:#f1b604;
+$orange:#fd7e14;
+$theme-colors: (
+  "dark": $dark,
+  "light": $light, 
+  "warning": $warning,
+  "orange":$orange,
+  "danger": $danger
+);
+
+//CSS
+//Página 
+*{
+margin:0; 
+}
+
+//Cabeçalho navbar 
+.navbar{ 
+    background-color:$danger;
+       font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .nav-link{
+    color:$light;
+}
+
+//Títulos
+h1{
+    font-size: 18px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-size:20px; 
+    color:$danger; 
+    margin-top:8px; 
+    margin-bottom:1px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h3{ 
+    font-size: 16px;
+    color:$danger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h5{ 
+    font-size: 16px;
+    color:$danger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+ ul {
+    list-style-type: none;
+
+}
+
+//Parágrafos
+form p {
+    font-size: 14px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.codPhp{
+    font-size: 14px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+   color:#000000;
+}
+
+
+//Formulario 
+.formulario{
+    padding-bottom:80px;
+    //text-align: center;
+}
+
+//Labels 
+label{
+    margin-right: 10px; 
+    margin-left: 2px; 
+    margin-top: 5px; 
+}
+//Campos
+input {
+    border:1; 
+    opacity: 1;
+    margin-top: 5px; 
+    text-align: center;
+}
+
+::placeholder{ 
+ text-align: left;
+
+}
+.inputProd{
+    width: 200px;
+}
+
+.inputCustoDireto{
+    width: 180px;
+
+}
+.inputValorDireto{
+    width: 130px;
+
+}
+.inputCustoIndireto{
+    width: 180px;
+}
+.inputValorIndireto{
+    width: 130px;
+}
+
+.inputTaxa{
+    width: 180px;
+    margin-right:8px; 
+}
+
+.inputPorcentagemTx{
+    width: 100px;
+}
+.inputLucro{
+    width: 150px;
+}
+
+ //Botão adicionar 
+.btnAdd{
+    margin-top: 40px;
+    margin-left:-16px;
+    border:0; 
+    border-radius:2; 
+    color: $light; 
+    background: $danger;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-bottom:3px;
+    padding-top: 3px;
+}
+
+//Botão calcular 
+.btn_calcular {
+    width: 100px;
+    border:0; 
+    border-radius: 1;
+    margin-top: 75px;
+    background: $btn-danger;
+    color:$light;
+    padding-top:8px;
+    padding-bottom:8px; 
+    padding-right: 4px; 
+    padding-left: 4px;
+    
+}
+
+//Rodapé 
+footer {
+background-color:$danger;
+width: 100%;
+padding-bottom: 35px; 
+padding-top:10px; 
+font-weight: bold;
+font-family:'Times New Roman', Times, serif;
+height:100px; 
+}
+
+ footer  p { 
+    font-style: italic;
+    color:$light;
+    text-align: left;
+    margin-top: 36px; 
+}
+
+
+footer ul {
+    text-align:right;
+    margin-right:10px; 
+    list-style-type: none;
+    margin-top: -40px; 
+}
+
+
+footer li {
+    margin-right: 3px; 
+    display: inline;
+}
+
+footer  a {
+    text-decoration: none;
+    color:$light;
+  }
