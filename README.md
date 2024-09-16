@@ -67,3 +67,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # calculo-lucro
 # addpreco
 # addpreco.git.io
+# precificaprodutos
